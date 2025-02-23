@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venexus Craft - Minecraft Server</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .hover-expand:hover {
+            transform: scale(1.1);
+            transition: transform 0.1s ease-in-out;
+        }
+        .bounce {
+            animation: bounce 1s infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen p-6">
+    
+    <div class="w-40 h-40 bg-blue-500 rounded-full flex items-center justify-center shadow-lg hover-expand">
+        <img src="logo.png" alt="Venexus Craft Logo" class="w-28 h-28 rounded-full bounce"> 
+    </div>
+    
+    <h1 class="text-4xl font-bold mb-6 mt-4">Venexus Craft - Minecraft Server</h1>
+    
+    <div class="w-full max-w-2xl bg-gray-800 p-6 rounded-lg shadow-lg mb-6 hover-expand">
+        <h2 class="text-2xl font-semibold mb-4">How to Install Minecraft</h2>
+        <p class="mb-2">📱 Link for mobile: <a href="https://www.mediafire.com/file/dsdedqtw8b0fgp5/minecraft-1-21-40.apk/file" class="text-blue-400 underline">Download here</a></p>
+        <p>💻 For PC: Download and install <a href="https://tlauncher.org/en/" class="text-blue-400 underline">TLauncher</a> and install version <strong>1.21.4</strong></p>
+    </div>
+    
+    <div class="w-full max-w-2xl bg-gray-800 p-6 rounded-lg shadow-lg hover-expand">
+        <h2 class="text-2xl font-semibold mb-4">Server Rules</h2>
+        <ul class="space-y-3">
+            <li>🚫 ممنوع دخول على اي قبيلة او تشفيرها : <span class="text-red-500">ban perma</span></li>
+            <li>🚫 ممنوع استخدام اي نوع من هاك : <span class="text-red-500">ban perma</span></li>
+            <li>🚫 ممنوع سب و شتم : <span class="text-yellow-500">ban 8 ايام</span></li>
+            <li>🚫 ممنوع قبيلة (team) تهجم على اي قبيلة اخرى : <span class="text-red-500">ban perma</span></li>
+            <li>🚫 مممنوع دخول على قبيلة</li>
+        </ul>
+    </div>
+    
+    <div class="w-full max-w-2xl bg-gray-800 p-6 rounded-lg shadow-lg mt-6 hover-expand">
+        <h2 class="text-2xl font-semibold mb-4">Join Our Discord</h2>
+        <p>🔗 Join our community: <a href="https://discord.gg/CBagPNSKsu" class="text-blue-400 underline">Discord Server</a></p>
+    </div>
+</body>
+</html>
